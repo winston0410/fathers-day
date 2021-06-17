@@ -1,0 +1,4 @@
+rule cc
+    command = g++ $in -o $out
+
+build my_words: cc ./main.cpp
